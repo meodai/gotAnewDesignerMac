@@ -11,7 +11,10 @@ automate installation of a MAC for a designer
 - hit enter
 - type: . install.sh yourappleid@whatever.com
 
-### to add:
+### ToDo:
+Create a nice exectuable.
+
+#### Apps to add
 - SVGo -> Node
 - CraftManager -> ??
 

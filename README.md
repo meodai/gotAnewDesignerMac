@@ -11,8 +11,7 @@ automate installation of a MAC for a designer
 - hit enter
 - type: . install.sh
 
-# to add:
-- Fonts
+### to add:
 - SVGo -> Node
 - CraftManager -> ??
 

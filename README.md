@@ -14,6 +14,4 @@ automate installation of a MAC for a designer
 ### ToDo:
 Create a nice exectuable.
 
-#### Apps to add
-- CraftManager -> ??
 

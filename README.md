@@ -15,6 +15,5 @@ automate installation of a MAC for a designer
 Create a nice exectuable.
 
 #### Apps to add
-- SVGo -> Node
 - CraftManager -> ??
 

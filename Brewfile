@@ -69,6 +69,8 @@ mas 'DoublePane', id: 409737246
 mas 'The Unarchiver', id: 425424353
 # better Unarchiver for OSX (support more formats but works the same)
 
+cask 'tunnelbear'
+# VPN
 
 # extends quicklook so it supports more formats
 cask 'qlcolorcode'
@@ -120,6 +122,7 @@ cask 'transmission'
 #
 mas 'Dropmark', id: 554314609
 cask 'slack'
+cask 'skype'
 cask 'github-desktop'
 # github UI
 
@@ -180,6 +183,8 @@ cask 'sketchup'
 #
 
 cask 'vlc'
+
+cals 'spotify'
 
 cask 'gifrocket'
 # create gif's from movies

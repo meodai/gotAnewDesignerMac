@@ -181,7 +181,7 @@ cask 'sketchup'
 
 cask 'vlc'
 
-cals 'spotify'
+cask 'spotify'
 
 cask 'gifrocket'
 # create gif's from movies

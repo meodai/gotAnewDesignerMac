@@ -9,7 +9,7 @@ automate installation of a MAC for a designer
 - Open Terminal app.
 - type `CD ` (with a space) and drag the `gotAnewDesingerMac` folder to the Tarminal app
 - hit enter
-- type: . install.sh yourappleid@whatever.com
+- type: `. install.sh yourappleid@whatever.com` (don't forget the `.` before install)
 
 ### ToDo:
 Create a nice exectuable.

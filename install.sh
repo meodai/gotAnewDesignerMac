@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 # install homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
 
 # installs bundle Bundle
-brew tap Homebrew/bundle
+brew tap Homebrew/bundle;
 
 # restore installed apps
-brew bundle
+brew bundle;

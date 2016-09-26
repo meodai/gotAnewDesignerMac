@@ -45,9 +45,6 @@ cask 'hyperterm'
 cask 'liteicon'
 # easily change you system and app icons
 
-cask 'macclean'
-# helps to clean unused files from your mac
-
 cask 'monolingual'
 # tool to remove unused languages for your mac
 

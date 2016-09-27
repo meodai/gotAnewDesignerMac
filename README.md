@@ -9,7 +9,8 @@ automate installation of a MAC for a designer
 - When TextEdit opens review the file > save and quit the application
 - Enter your appleID when promted
 - Have fun
-### Command-line:
+
+### Command-line
 - Open `Brewfile` with TextEdit and make sure to comment out all the Apps you don't want
 - Open Terminal app.
 - type `CD ` (with a space) and drag the `gotAnewDesingerMac` folder to the Tarminal app

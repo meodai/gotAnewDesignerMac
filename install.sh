@@ -14,7 +14,7 @@ brew install mas;
 
 mas signin $1;
 
-echo 'next time you are asked for you password enter you system passowrd';
+echo 'next time you are asked for you password, enter you system passowrd';
 echo 'NOT the apple store password:';
 
 # restore installed apps

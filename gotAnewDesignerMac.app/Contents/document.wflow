@@ -107,7 +107,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>301.500000:368.000000</string>
+				<string>427.000000:316.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -211,7 +211,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>301.500000:472.000000</string>
+				<string>427.000000:420.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Open Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -313,7 +313,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>301.500000:718.000000</string>
+				<string>427.000000:666.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -494,7 +494,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>301.500000:900.000000</string>
+				<string>427.000000:848.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -602,7 +602,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>301.500000:1006.000000</string>
+				<string>427.000000:954.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -620,25 +620,17 @@ end run</string>
 					<true/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.cocoa.string</string>
+						<string>com.apple.applescript.object</string>
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>2.0.3</string>
+				<string>1.0.2</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Automator</string>
 				</array>
 				<key>AMParameterProperties</key>
 				<dict>
-					<key>COMMAND_STRING</key>
-					<dict/>
-					<key>CheckedForUserDefaultShell</key>
-					<dict/>
-					<key>inputMethod</key>
-					<dict/>
-					<key>shell</key>
-					<dict/>
 					<key>source</key>
 					<dict/>
 				</dict>
@@ -648,30 +640,23 @@ end run</string>
 					<string>List</string>
 					<key>Types</key>
 					<array>
-						<string>com.apple.cocoa.string</string>
+						<string>com.apple.applescript.object</string>
 					</array>
 				</dict>
 				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
 				<key>ActionName</key>
-				<string>Run Shell Script</string>
+				<string>Run AppleScript</string>
 				<key>ActionParameters</key>
 				<dict>
-					<key>COMMAND_STRING</key>
-					<string>.install.sh $1</string>
-					<key>CheckedForUserDefaultShell</key>
-					<true/>
-					<key>inputMethod</key>
-					<integer>1</integer>
-					<key>shell</key>
-					<string>/usr/local/bin/bash</string>
 					<key>source</key>
-					<string></string>
+					<string>on run {input, parameters}	tell application "Terminal"		activate		if (the (count of the window) = 0) or ¬			(the busy of window 1 = true) then			tell application "System Events"				keystroke "n" using command down			end tell		end if		do script "cd " &amp; (POSIX path of (path to me)) in window 1
+		do script "cd .." in window 1		do script ". install.sh " &amp; (item 1 of input) in window 1	end tell	return inputend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.RunShellScript</string>
+				<string>com.apple.Automator.RunScript</string>
 				<key>CFBundleVersion</key>
-				<string>2.0.3</string>
+				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -681,21 +666,17 @@ end run</string>
 					<string>AMCategoryUtilities</string>
 				</array>
 				<key>Class Name</key>
-				<string>RunShellScriptAction</string>
+				<string>RunScriptAction</string>
 				<key>InputUUID</key>
-				<string>65B52E04-1BB9-4050-A2EF-5E4DB9C01CFD</string>
+				<string>F9407294-6576-445A-83E1-1EC19489A966</string>
 				<key>Keywords</key>
 				<array>
-					<string>Shell</string>
-					<string>Script</string>
-					<string>Command</string>
 					<string>Run</string>
-					<string>Unix</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>E7D50242-0AA8-4469-99EF-99363495E3F9</string>
+				<string>A03B0C16-88E0-451F-BD7D-9E2600BAB84E</string>
 				<key>UUID</key>
-				<string>C88DCD50-6DCE-4990-8371-2C7854E84460</string>
+				<string>52ED8BCC-2E18-4CA0-9837-B1764EF7E1EA</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Automator</string>
@@ -705,20 +686,12 @@ end run</string>
 					<key>0</key>
 					<dict>
 						<key>default value</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>inputMethod</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-					<key>1</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
 						<key>name</key>
 						<string>source</string>
 						<key>required</key>
@@ -726,54 +699,17 @@ end run</string>
 						<key>type</key>
 						<string>0</string>
 						<key>uuid</key>
-						<string>1</string>
-					</dict>
-					<key>2</key>
-					<dict>
-						<key>default value</key>
-						<false/>
-						<key>name</key>
-						<string>CheckedForUserDefaultShell</string>
-						<key>required</key>
 						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>2</string>
-					</dict>
-					<key>3</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>COMMAND_STRING</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>3</string>
-					</dict>
-					<key>4</key>
-					<dict>
-						<key>default value</key>
-						<string>/bin/sh</string>
-						<key>name</key>
-						<string>shell</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>4</string>
 					</dict>
 				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>301.500000:1189.000000</string>
+				<string>427.000000:1332.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -781,40 +717,40 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>243A7905-19F1-4BB5-AFEB-BDE00C2A47DB</key>
+		<key>38B3E072-8FA4-49FE-ADCC-B88D8095F148</key>
+		<dict>
+			<key>from</key>
+			<string>C2F46C40-9AF4-4AA9-9D5C-9338A34DF303 - C2F46C40-9AF4-4AA9-9D5C-9338A34DF303</string>
+			<key>to</key>
+			<string>52ED8BCC-2E18-4CA0-9837-B1764EF7E1EA - 52ED8BCC-2E18-4CA0-9837-B1764EF7E1EA</string>
+		</dict>
+		<key>A0A1CAA7-5DCC-470D-AC21-4A0944A1BB6F</key>
+		<dict>
+			<key>from</key>
+			<string>C7AF5790-B0A8-4362-AB7E-6D1733F602DC - C7AF5790-B0A8-4362-AB7E-6D1733F602DC</string>
+			<key>to</key>
+			<string>C2382202-177E-435A-90CE-45C6FC92C11E - C2382202-177E-435A-90CE-45C6FC92C11E</string>
+		</dict>
+		<key>BA799D25-5018-4FDC-8B44-F84B418C0FD1</key>
+		<dict>
+			<key>from</key>
+			<string>B5B17284-DB80-420A-B290-CF4BF5F7DF16 - B5B17284-DB80-420A-B290-CF4BF5F7DF16</string>
+			<key>to</key>
+			<string>C2F46C40-9AF4-4AA9-9D5C-9338A34DF303 - C2F46C40-9AF4-4AA9-9D5C-9338A34DF303</string>
+		</dict>
+		<key>CEF37011-C0FE-42EB-BCA6-E1B96281193E</key>
 		<dict>
 			<key>from</key>
 			<string>40CAE9C2-C225-4782-A014-19D528E0DE2D - 40CAE9C2-C225-4782-A014-19D528E0DE2D</string>
 			<key>to</key>
 			<string>C7AF5790-B0A8-4362-AB7E-6D1733F602DC - C7AF5790-B0A8-4362-AB7E-6D1733F602DC</string>
 		</dict>
-		<key>423CEFA4-323E-4C2A-BD0B-BE1D88B0DA20</key>
-		<dict>
-			<key>from</key>
-			<string>B5B17284-DB80-420A-B290-CF4BF5F7DF16 - B5B17284-DB80-420A-B290-CF4BF5F7DF16</string>
-			<key>to</key>
-			<string>C2F46C40-9AF4-4AA9-9D5C-9338A34DF303 - C2F46C40-9AF4-4AA9-9D5C-9338A34DF303</string>
-		</dict>
-		<key>43FC170D-274B-469C-A740-0D647B451D6B</key>
-		<dict>
-			<key>from</key>
-			<string>C7AF5790-B0A8-4362-AB7E-6D1733F602DC - C7AF5790-B0A8-4362-AB7E-6D1733F602DC</string>
-			<key>to</key>
-			<string>C2382202-177E-435A-90CE-45C6FC92C11E - C2382202-177E-435A-90CE-45C6FC92C11E</string>
-		</dict>
-		<key>450067B0-033B-4B44-B808-10AC3CA23BB6</key>
+		<key>DFA3C04D-6E43-47DC-8BDE-2398B66740A8</key>
 		<dict>
 			<key>from</key>
 			<string>C2382202-177E-435A-90CE-45C6FC92C11E - C2382202-177E-435A-90CE-45C6FC92C11E</string>
 			<key>to</key>
 			<string>B5B17284-DB80-420A-B290-CF4BF5F7DF16 - B5B17284-DB80-420A-B290-CF4BF5F7DF16</string>
-		</dict>
-		<key>ED7AB707-666B-4B29-B881-21B5A7ACBFAC</key>
-		<dict>
-			<key>from</key>
-			<string>C2F46C40-9AF4-4AA9-9D5C-9338A34DF303 - C2F46C40-9AF4-4AA9-9D5C-9338A34DF303</string>
-			<key>to</key>
-			<string>C88DCD50-6DCE-4990-8371-2C7854E84460 - C88DCD50-6DCE-4990-8371-2C7854E84460</string>
 		</dict>
 	</dict>
 	<key>variables</key>

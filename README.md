@@ -11,6 +11,13 @@ automate installation of a MAC for a designer
 - hit enter
 - type: `. install.sh yourAppStoreId@whatever.com` (don't forget the `.` before install)
 
+### or
+
+- Run `gotAnewDesignerMac.app``
+- When TextEdit opens review the file > save and quit the application
+- Enter your appleID when promted
+- Have fun
+
 ### ToDo:
 Create a nice exectuable.
 

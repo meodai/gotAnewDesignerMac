@@ -16,6 +16,7 @@ brew 'bash'
 brew 'coreutils'
 brew 'curl'
 brew 'git'
+brew 'git-lfs'
 brew 'n'
 brew 'trash'
 brew 'wget'
@@ -45,9 +46,6 @@ cask 'hyperterm'
 cask 'liteicon'
 # easily change you system and app icons
 
-cask 'macclean'
-# helps to clean unused files from your mac
-
 cask 'monolingual'
 # tool to remove unused languages for your mac
 
@@ -73,13 +71,13 @@ cask 'tunnelbear'
 # VPN
 
 # extends quicklook so it supports more formats
-cask 'qlcolorcode'
-cask 'qlimagesize'
-cask 'qlmarkdown'
-cask 'qlstephen'
-cask 'quicklook-csv'
-cask 'quicklook-json'
-cask 'webpquicklook'
+# cask 'qlcolorcode'
+# cask 'qlimagesize'
+# cask 'qlmarkdown'
+# cask 'qlstephen'
+# cask 'quicklook-csv'
+# cask 'quicklook-json'
+# cask 'webpquicklook'
 
 
 
@@ -184,7 +182,7 @@ cask 'sketchup'
 
 cask 'vlc'
 
-cals 'spotify'
+cask 'spotify'
 
 cask 'gifrocket'
 # create gif's from movies

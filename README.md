@@ -17,7 +17,5 @@ automate installation of a MAC for a designer
 - hit enter
 - type: `. install.sh yourAppStoreId@whatever.com` (don't forget the `.` before install)
 
-### ToDo:
-Create a nice exectuable.
 
 

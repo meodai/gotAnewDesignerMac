@@ -2,7 +2,10 @@
 
 if [ $# -eq 0 ]
   then
-    echo "❗ Make sure to call install.sh yourAppleId@whatever.com"
+    echo "🍎 Enter your AppleID followed by [ENTER]:"
+    read APPLEID
+else
+    APPLEID=$1
 fi
 
 # install homebrew
@@ -16,7 +19,7 @@ brew tap Homebrew/bundle
 brew install mas
 
 echo "🍎 Signing in with your appleID"
-mas signin $1
+mas signin $APPLEID
 
 echo '❗ next time you are asked for you password, enter you system passowrd'
 echo '❗ NOT the apple store password:'

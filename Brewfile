@@ -99,7 +99,7 @@ cask 'haroopad'
 
 # mas 'iA Writer', id: 775737590
 # distraction free text editor
-
+/Users/meodai/Sites/gotAnewDesignerMac/Brewfile
 # mas 'MindNode', id: 992076693
 # great mind map tool
 

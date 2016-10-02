@@ -71,15 +71,13 @@ cask 'tunnelbear'
 # VPN
 
 # extends quicklook so it supports more formats
-# cask 'qlcolorcode'
-# cask 'qlimagesize'
-# cask 'qlmarkdown'
-# cask 'qlstephen'
-# cask 'quicklook-csv'
-# cask 'quicklook-json'
-# cask 'webpquicklook'
-
-
+cask 'qlcolorcode'
+cask 'qlimagesize'
+cask 'qlmarkdown'
+cask 'qlstephen'
+cask 'quicklook-csv'
+cask 'quicklook-json'
+cask 'webpquicklook'
 
 #
 # Text & Code

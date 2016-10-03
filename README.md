@@ -1,4 +1,4 @@
-# 🍎 gotAnewDesignerMac
+#  gotAnewDesignerMac
 Automatically installs all the Apps a designer needs on his brand new MAC
 
 ## 💾 Download

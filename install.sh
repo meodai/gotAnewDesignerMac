@@ -2,7 +2,7 @@
 
 if [ $# -eq 0 ]
   then
-    echo "🍎 Enter your AppleID followed by [ENTER]:"
+    echo " Enter your AppleID followed by [ENTER]:"
     read APPLEID
 else
     APPLEID=$1
@@ -29,4 +29,5 @@ echo '❗ NOT the apple store password:'
 
 # restore installed apps
 brew bundle
-echo '✅ Everything should be installed by now';
+echo '✅ Everything should be installed by now'
+echo 'enjoy your freshly installed MAC '

@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Set the Application folder to the User
+# export HOMEBREW_CASK_OPTS="--appdir=~/Applications"
+
+# checks if apple ID was used as argument, if not ask for it
 if [ $# -eq 0 ]
   then
     echo " Enter your AppleID followed by [ENTER]:"
@@ -13,9 +17,6 @@ if [[ ! "$(type -P brew)" ]]; then
     echo "🌶 Installing homebrew"
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
 fi
-
-# Set the Application folder to the User
-# export HOMEBREW_CASK_OPTS="--appdir=~/Applications"
 
 # installs bundle Bundle
 brew tap Homebrew/bundle

@@ -83,7 +83,7 @@ cask 'webpquicklook'
 # Text & Code
 #
 
-mas 'Xcode', id: 497799835
+# mas 'Xcode', id: 497799835
 # OSX Coding tools and IOS Simulators
 
 cask 'atom'

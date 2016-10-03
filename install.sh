@@ -14,6 +14,9 @@ if [[ ! "$(type -P brew)" ]]; then
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
 fi
 
+# Set the Application folder to the User
+# export HOMEBREW_CASK_OPTS="--appdir=~/Applications"
+
 # installs bundle Bundle
 brew tap Homebrew/bundle
 brew install mas

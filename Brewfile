@@ -58,7 +58,7 @@ cask 'rightfont'
 cask 'fontstand'
 # try expensive fonts for 1h
 
-cask 'bartender'
+# cask 'bartender'
 # hide some icons from the OSX toolbar
 
 mas 'DoublePane', id: 409737246
@@ -97,7 +97,7 @@ cask 'haroopad'
 
 # mas 'iA Writer', id: 775737590
 # distraction free text editor
-/Users/meodai/Sites/gotAnewDesignerMac/Brewfile
+
 # mas 'MindNode', id: 992076693
 # great mind map tool
 

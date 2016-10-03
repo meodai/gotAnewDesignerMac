@@ -64,7 +64,7 @@ cask 'bartender'
 mas 'DoublePane', id: 409737246
 # rearrange your OSX windows with shortcuts
 
-mas 'The Unarchiver', id: 425424353
+cask 'the-unarchiver'
 # better Unarchiver for OSX (support more formats but works the same)
 
 cask 'tunnelbear'

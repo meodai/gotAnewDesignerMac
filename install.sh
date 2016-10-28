@@ -25,7 +25,7 @@ brew install mas
 echo "🍎 Signing in with your appleID"
 mas signin $APPLEID
 
-echo '❗ next time you are asked for you password, enter you system passowrd'
+echo '❗ The next time you are asked for your password, enter your system password'
 echo '❗ NOT the apple store password:'
 
 # restore installed apps

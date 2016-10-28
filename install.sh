@@ -31,4 +31,4 @@ echo '❗ NOT the apple store password:'
 # restore installed apps
 brew bundle
 echo '✅ Everything should be installed by now'
-echo 'enjoy your freshly installed MAC '
+echo 'enjoy your freshly installed Mac '

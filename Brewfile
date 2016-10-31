@@ -21,6 +21,10 @@ brew 'n'
 brew 'trash'
 brew 'wget'
 
+# Utility to download content from youtube, the latast Tatort or whatever
+# else you want to watch offline
+brew 'youtube-dl'
+
 #
 # system tools
 #

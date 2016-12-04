@@ -4,6 +4,17 @@ body {
     font-family: 'Space Mono', monospace;
     font-size: calc(0.5rem + 0.75vw);
 }
+a {
+    color: #2dcafa;
+    text-decoration: none;
+}
+a:hover {
+    color: #2dcafa;
+    text-decoration: underline;
+}
+h1, h2, h3, h4 {
+    color: #f46190;
+}
 .logo {
     margin: 2rem auto;
     padding: 292px 0 0 292px;

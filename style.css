@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i');
+
+body {
+    font-family: 'Space Mono', monospace;
+    font-size: calc(0.5rem + 0.75vw);
+}
+.logo {
+    margin: 2rem auto;
+    padding: 292px 0 0 292px;
+    height: 0;
+    width: 0;
+    background: url(logo.png) 0 0;
+    overflow: hidden;
+}
+.l-width--design {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}

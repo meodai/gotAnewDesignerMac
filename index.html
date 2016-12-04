@@ -10,7 +10,31 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>gitAnewDesignerMac</h1>
+  <h1 class="logo js-logo">gotAnewDesignerMac</h1>
+  <article class="l-width--design markdown-body entry-content" itemprop="text"><h1>
+    <a id="user-content--gotanewdesignermac" class="anchor" href="#-gotanewdesignermac" aria-hidden="true"></a> gotAnewDesignerMac</h1>
+    <p>Automatically installs all the Apps a designer needs on your brand new Mac</p>
+
+    <h2><a id="user-content--download-here" class="anchor" href="#-download-here" aria-hidden="true"></a><g-emoji alias="floppy_disk" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4be.png" ios-version="6.0">💾</g-emoji> Download <a href="https://github.com/meodai/gotAnewDesignerMac/archive/master.zip">here</a></h2>
+
+    <p>get the files you need <a href="https://github.com/meodai/gotAnewDesignerMac/archive/master.zip">here</a> and extract them</p>
+
+    <h2><a id="user-content--installation" class="anchor" href="#-installation" aria-hidden="true"></a><g-emoji alias="computer" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" ios-version="6.0">💻</g-emoji> Installation</h2>
+
+    <ul>
+    <li>Open <code>Brewfile</code> with TextEdit and make sure to comment out all the Apps you don't want</li>
+    <li>Open Terminal app.</li>
+    <li>Type <code>CD</code> (with a space) and drag the <code>gotAnewDesingerMac</code> folder to the Terminal app.</li>
+    <li>Hit [ENTER ↵].</li>
+    <li>Type: <code>. install.sh</code> (don't forget the <code>.</code> before install) followed by [ENTER ↵].</li>
+    <li>Follow the instructions in the terminal. <strong>You will be prompted for your appleID and your system password later</strong></li>
+    </ul>
+
+    <h2><a id="user-content--alternative-applications-folder-location" class="anchor" href="#-alternative-applications-folder-location" aria-hidden="true"></a><g-emoji alias="open_file_folder" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4c2.png" ios-version="6.0">📂</g-emoji> Alternative <code>Applications</code> folder location</h2>
+
+    <p>If you prefer to have your apps in <code>/YourUser/Applications</code>, open <code>install.sh</code> with TextEdit
+    and uncomment the line <code>export HOMEBREW_CASK_OPTS="--appdir=~/Applications"</code>.</p>
+  </article>
   <script src="main.js"></script>
 </body>
 </html>

@@ -15,6 +15,12 @@ a:hover {
 h1, h2, h3, h4 {
     color: #f46190;
 }
+li {
+    margin-bottom: 1em;
+}
+h2 {
+    margin-top: 3em;
+}
 .logo {
     margin: 2rem auto;
     padding: 292px 0 0 292px;

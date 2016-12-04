@@ -4,6 +4,7 @@ body {
     font-family: 'Space Mono', monospace;
     font-size: calc(0.5rem + 0.75vw);
     line-height: 1.5;
+    background: #dde9f3;
 }
 a {
     color: #2dcafa;
@@ -22,12 +23,18 @@ li {
 h2 {
     margin-top: 3em;
 }
+.header {
+    background: #f46190;
+    padding: 2rem 0;
+    margin-bottom: 4rem;
+}
 .logo {
     margin: 2rem auto;
     padding: 292px 0 0 292px;
     height: 0;
     width: 0;
     background: url(logo.png) 0 0 no-repeat;
+    background-size: 100% auto;
     overflow: hidden;
 }
 .l-width--design {

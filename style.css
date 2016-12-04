@@ -3,6 +3,7 @@
 body {
     font-family: 'Space Mono', monospace;
     font-size: calc(0.5rem + 0.75vw);
+    line-height: 1.5;
 }
 a {
     color: #2dcafa;

@@ -9,7 +9,7 @@ get the files you need [here](https://github.com/meodai/gotAnewDesignerMac/archi
 - Open Terminal app.
 - Type `CD ` (with a space) and drag the `gotAnewDesingerMac` folder to the Terminal app.
 - Hit [ENTER ↵].
-- Type: `. install.sh` (don't forget the `.` before install) followed by [ENTER ↵].
+- Type: `. install.sh` (don't forget the `.` before install) followed by [ENTER ↵]. (At this point, OSX might ask you to install the Xcode terminal tools, if so, rerun `. install.sh` once done)
 - Follow the instructions in the terminal. **You will be prompted for your appleID and your system password later**
 
 ## 📂 Alternative `Applications` folder location

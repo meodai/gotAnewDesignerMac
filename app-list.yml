@@ -1,4 +1,116 @@
 categories:
+  designtools:
+    multiple: true
+    items:
+      -
+        description: 'Sketch'
+        package: sketch
+        type: cask
+        default: true
+      -
+        description: 'Sketch Toolbox: Plugin management'
+        package: 'sketch-toolbox'
+        type: cask
+        default: true
+      -
+        description: 'Invision Sync'
+        package: invisionsync
+        type: cask
+        default: true
+      -
+        description: 'Adobe Creative Cloud'
+        package: 'adobe-creative-cloud'
+        type: cask
+        default: false
+      -
+        description: 'Adobe Photoshop CC'
+        package: 'adobe-photoshop-cc'
+        type: cask
+        default: false
+      -
+        description: 'Adobe Illustrator CC'
+        package: 'adobe-illustrator-cc'
+        type: cask
+        default: false
+      -
+        description: 'Adobe Lightroom 6'
+        package: 'adobe-photoshop-lightroom600'
+        type: cask
+        default: false
+      -
+        description: "ImageAlpha: makes lightweight transparent PNG's"
+        package: 'imagealpha'
+        type: cask
+        default: true
+      -
+        description: "ImageOptim: compresses JPG's and PNG's further"
+        package: 'imageoptim'
+        type: cask
+        default: true
+      -
+        description: "MagicVoxel: free voxelart editor"
+        package: 'magicavoxel'
+        type: cask
+        default: true
+      -
+        description: "NounProject: icon finder"
+        package: 'noun-project'
+        type: cask
+        default: true
+      -
+        description: "Zeplin: Design specs"
+        package: 'zeplin'
+        type: cask
+        default: true
+      -
+        description: "Principle: Animation prototyping"
+        package: 'principle'
+        type: cask
+        default: true
+      -
+        description: "Screenflow"
+        package: 'screenflow'
+        type: cask
+        default: true
+      -
+        description: "Pixelmator"
+        package: 'Pixelmator'
+        type: mas
+        id: 407963104
+        default: true
+      -
+        description: "Affinity Designer"
+        package: 'affinity-designer-beta'
+        type: cask
+        default: false
+      -
+        description: "Affinity Photo"
+        package: 'affinity-photo-beta'
+        type: cask
+        default: false
+
+  3d:
+    multiple: true
+    items:
+      -
+        description: 'Blender'
+        package: 'blender-daily'
+        type: cask
+        default: false
+      -
+        description: 'Sketchup'
+        package: sketchup
+        type: cask
+        default: true
+      -
+        description: '123D Design: free and easy 3D modeling'
+        package: '123D Design'
+        id: 566042322
+        type: cask
+        default: false
+
+
+
   terminal:
     multiple: true
     items:

@@ -1,0 +1,118 @@
+categories:
+  terminal:
+    multiple: true
+    items:
+      -
+        description: 'GIT: Newer version of GIT'
+        package: git
+        type: brew
+        default: true
+      -
+        description: 'GIT-LFS: GIT Large-file Support'
+        package: 'git-lfs'
+        type: brew
+        default: true
+      -
+        description: 'trash: command to move files to trash'
+        package: trash
+        type: brew
+        default: true
+      -
+        description: 'youtube-dl: Movie file down-loader (yt, dailymotaion etc..)'
+        package: 'youtube-dl'
+        type: brew
+        default: false
+
+  systemtools:
+    multiple: true
+    items:
+      -
+        description: 'AppCleaner: thoroughly uninstall unwanted apps'
+        package: appcleaner
+        type: cask
+        default: true
+      -
+        description: 'liteicon: easily replace app and system icons'
+        package: liteicon
+        type: cask
+        default: true
+      -
+        description: 'monolingual: remove OSX & App languages (free space)'
+        package: monolingual
+        type: cask
+        default: true
+      -
+        description: 'caffeine keeps macs awake during presentations'
+        package: caffeine
+        type: cask
+        default: true
+      -
+        description: 'disk-inventory-x shows large files by type'
+        package: 'disk-inventory-x'
+        type: cask
+        default: true
+      -
+        description: 'osxfuse: mount windows drives to OSX'
+        package: osxfuse
+        type: cask
+        default: false
+
+  terminalemulator:
+    multiple: false
+    items:
+      -
+        description: 'iTerm 2'
+        package: iterm2
+        type: cask
+        default: true
+      -
+        description: 'HyperTherm: for JS hipsters'
+        package: heyper
+        type: cask
+        default: false
+      -
+        description: 'Cathode: for the nostalgia'
+        package: cathode
+        type: cask
+        default: false
+      -
+        description: 'none'
+        default: false
+
+  passwordmanager:
+    multiple: false
+    items:
+      -
+        description: '1password'
+        package: 1password
+        type: cask
+        default: true
+      -
+        description: 'oneSafe'
+        package: oneSafe
+        id: 595543758
+        type: mas
+        dafault: false
+      -
+        description: 'Lastpass'
+        package: lastpass
+        type: cask
+        default: false
+      -
+        description: 'KeePass'
+        package: KeepassX
+        type: cask
+        default: false
+      -
+        description: 'none'
+        padding: false
+        default: false
+
+taps:
+  - 'bramstein/webfonttools'
+  - 'caskroom/cask'
+  - 'homebrew/bundle'
+  - 'homebrew/core'
+  - 'homebrew/dupes'
+  - 'homebrew/fuse'
+  - 'homebrew/versions'

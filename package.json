@@ -1,0 +1,23 @@
+{
+  "name": "got-a-new-designer-mac",
+  "version": "1.0.0",
+  "description": "Automatically installs all the Apps a designer needs on your brand new Mac",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meodai/gotAnewDesignerMac.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meodai/gotAnewDesignerMac/issues"
+  },
+  "homepage": "https://github.com/meodai/gotAnewDesignerMac#readme",
+  "dependencies": {
+    "inquirer": "^1.2.3",
+    "js-yaml": "^3.7.0"
+  }
+}

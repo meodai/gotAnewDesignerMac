@@ -25,6 +25,15 @@ brew install mas
 echo "🍎 Signing in with your appleID"
 mas signin $APPLEID
 
+echo "✅ Making sure you are using the latest node"
+echo "✅ if promted for your password, enter your system password:"
+
+brew install n
+sudo n latest
+
+npm install
+node index.js
+
 echo '❗ The next time you are asked for your password, enter your system password'
 echo '❗ NOT the apple store password:'
 

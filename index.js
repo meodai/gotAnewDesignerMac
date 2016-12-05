@@ -48,6 +48,11 @@ function flattenList (list) {
 function createBrewfileBody (answers) {
   var body = [];
   var appDescriptions = flattenList(answers);
+
+  for (var tap in doc.taps) {
+    body.push("tap '" + doc.taps[tap] + "'");
+  }
+
   for(var app in appDescriptions) {
     var match = flatAppList.find(function(entry){
       return entry.description == appDescriptions[app];

@@ -26,9 +26,9 @@ echo "🍎 Signing in with your appleID"
 mas signin $APPLEID
 
 echo "✅ Making sure you are using the latest node"
-echo "✅ if promted for your password, enter your system password:"
-
+# installs n and the latest node version
 brew install n
+echo "❗ if promted for your password, enter your system password:"
 sudo n latest
 
 npm install

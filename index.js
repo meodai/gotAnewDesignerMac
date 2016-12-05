@@ -57,7 +57,10 @@ function createBrewfileBody (answers) {
     var match = flatAppList.find(function(entry){
       return entry.description == appDescriptions[app];
     });
-    body.push(match.type + " '" + match.package + "'" + (match.type == "mas" ? ", id: " + match.id : ""));
+
+    if (match.type) {
+      body.push(match.type + " '" + match.package + "'" + (match.type == "mas" ? ", id: " + match.id : ""));
+    }
   }
   return body.join('\n')
 }

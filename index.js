@@ -3,7 +3,7 @@
 var inquirer  = require('inquirer');
 var yaml      = require('js-yaml');
 var fs        = require('fs');
-var doc       = yaml.safeLoad(fs.readFileSync('apps.yml', 'utf8'));
+var doc       = yaml.safeLoad(fs.readFileSync('apps-list.yml', 'utf8'));
 
 //console.log(JSON.stringify(doc, null, '  '));
 

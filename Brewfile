@@ -6,7 +6,6 @@ tap 'homebrew/dupes'
 tap 'homebrew/fuse'
 tap 'homebrew/versions'
 
-
 #
 # Comment or uncomment if you want to adapt your installation
 #

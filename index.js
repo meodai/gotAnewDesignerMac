@@ -64,7 +64,7 @@ function createBrewfileBody (answers) {
 
 inquirer.prompt(questions).then(function (answers) {
   //console.log(JSON.stringify(answers, null, '  '));
-  fs.writeFile('Brewfile.test', createBrewfileBody(answers), function(err) {
+  fs.writeFile('Brewfile', createBrewfileBody(answers), function(err) {
     if(err) {
         return console.log(err);
     }

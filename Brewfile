@@ -143,6 +143,9 @@ cask 'imagealpha'
 cask 'imageoptim'
 # PNG optimization
 
+cask 'optimage'
+# stronger image optimization / but limited without lisence
+
 cask 'magicavoxel'
 # Voxel art
 

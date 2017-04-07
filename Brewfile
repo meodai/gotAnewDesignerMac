@@ -134,7 +134,7 @@ cask 'github-desktop'
 cask 'sketch'
 # sketch
 
-cask 'sketch-toolbox'
+cask 'sketchpacks'
 # sketch plugin management
 
 cask 'imagealpha'
